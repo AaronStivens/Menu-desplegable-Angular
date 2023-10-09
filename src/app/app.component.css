@@ -1,0 +1,154 @@
+@import '~@fortawesome/fontawesome-free/css/all.min.css';
+@import '~@Angular/material/prebuilt-themes/deeppurple-amber.css';
+@import url('https://fonts.googleapis.com/css?family=Cairo');
+
+body {
+    padding:0;
+    margin:0;
+    font-family: roboto, sans-serif;
+}
+
+.mat-icon-button-rounded {
+    border-radius: 50%;
+    padding: 8px;
+    border: 0;
+    background-color: transparent;
+    color: aliceblue;
+  }
+
+  .mat-menu-panel {
+    left: -60% !important;
+    width: 300% !important;
+  }
+  .menu-panel {
+    left: -60% !important;
+    width: 300% !important;
+    font-size: 100px;
+  }
+
+  .menu-button{
+   background-color: transparent;
+   color: aliceblue;
+   border: none;
+  }
+
+  .Titulo{
+    margin: 10px;
+  }
+
+  .ImagenC{
+    width: 120px;
+    height: 100px;
+    margin: 15px;
+  }
+
+  hr{
+    border: none;
+    border-top: 1px solid rgb(255, 255, 255);
+    margin: 20px 0;
+  }
+
+  .sidenav-container {
+    height: calc(100% - 80px);
+    background-color: rgb(0, 0, 0);
+    
+  }
+  
+  .sidenav {
+    height: 100%;
+    width: 200px;
+    background-color: rgb(90, 138, 226);
+  }
+
+  .sidenav a{
+    margin-top: 20px;
+  }
+
+  mat-line{
+    color: rgb(255, 255, 255);
+  }
+  
+  .mat-drawer-inner-container {
+    height: 100%;
+  }
+
+  .Barra{
+    height: 150px;
+  }
+
+  .footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    justify-content: center;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+  }
+
+  .footer i{
+    justify-content: center;
+    font-size: 50px;
+    margin-top: 20px;
+  }
+
+  .TextoC {
+    font-family: "Cairo";
+    text-align: center;
+    color: #FFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 1px;
+    line-height:2;
+    margin-top: 250px;
+  }
+  
+  h1 {
+    background-image: url(https://media.giphy.com/media/26BROrSHlmyzzHf3i/giphy.gif);
+    background-size: cover;
+    color: transparent;
+    -moz-background-clip: text;
+    -webkit-background-clip: text;
+    text-transform: uppercase;
+    font-size: 120px;
+  }
+
+  .AngularI:hover {
+    --fa-inverse: #ff0000; 
+    transition: 0.50s;
+   }
+
+   .GithubI:hover{
+    --fa-inverse: #020202;
+    transition: 0.50s;
+   }
+   .HTMLI:hover{
+    --fa-inverse: #f87800;
+    transition: 0.50s;
+   }
+
+   .CSS3I:hover{
+    --fa-inverse: #00eeff;
+    transition: 0.50s;
+   }
+
+   .JavaSI:hover{
+    --fa-inverse: #ffd000;
+    transition: 0.50s;
+   }
+
+   .WindowsI:hover{
+    --fa-inverse:#00a2ff;
+    transition:0.50s;
+   }
+
+
+
+

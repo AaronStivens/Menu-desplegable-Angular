@@ -1,0 +1,53 @@
+<head>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+<body>
+ 
+ <!--Componente menu deslizable--> 
+<mat-sidenav-container class="sidenav-container">
+  <mat-sidenav #sidenav class="sidenav">
+    <img src="assets/Ceutec logo.png" class="ImagenC">
+    <hr>
+    <mat-nav-list>
+        <a mat-list-item (click)="openDialog()">
+            <mat-icon mat-list-icon>home</mat-icon>
+            <span mat-line [ngStyle]="{'color': sidenavTextColor}">Direccion</span>
+          </a>
+          <a mat-list-item (click)="openDialog2()">
+            <mat-icon mat-list-icon>phone</mat-icon>
+            <span mat-line [ngStyle]="{'color': sidenavTextColor}">Contacto</span>
+          </a>
+          <a mat-list-item (click)="openDialog3()">
+            <mat-icon mat-list-icon>assignment</mat-icon>
+            <span mat-line [ngStyle]="{'color': sidenavTextColor}">Blog</span>
+          </a>
+    </mat-nav-list>
+  </mat-sidenav>
+
+ <!--Componente encabezado iconos font awesome--> 
+  <mat-sidenav-content>
+    <mat-toolbar color="primary" class="Barra">
+      <button mat-icon-button class="menu-button" (click)="sidenav.toggle()">
+        <mat-icon>menu</mat-icon>
+      </button>
+      <span class="Titulo">Ceutec-Unitec | Aaron Stivens Hernandez Guerra</span>
+    </mat-toolbar>
+    <div class="TextoC">
+      <h1>Bienvenido</h1>
+    </div>
+
+  </mat-sidenav-content>
+</mat-sidenav-container>
+
+<!--Componente pie de pagina+iconos font awesome--> 
+<mat-toolbar color="primary" class="footer">
+    <div class="footer-container">
+    <i class="fab fa-angular AngularI fa-inverse" style="margin-right:50px;"></i>
+    <i class="fab fa-github GithubI fa-inverse" style="margin-right:50px;" ></i>
+    <i class="fab fa-windows WindowsI fa-inverse" style="margin-right:50px;" ></i>
+    <i class="fab fa-html5 HTMLI fa-inverse" style="margin-right:50px;" ></i>
+    <i class="fab fa-css3-alt CSS3I fa-inverse" style="margin-right:50px;" ></i>
+    <i class="fab fa-js JavaSI fa-inverse" style="margin-right:50px;" ></i>
+  </div>
+  </mat-toolbar>
+</body>
